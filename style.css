@@ -247,3 +247,44 @@ display: inline-block;
 
 }
 /* subscribe section end */
+footer{
+    width:1922px;
+    height:449px;
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer-title{
+width:594px;
+color:white;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+margin-bottom:48px;
+}
+.footer-heading{
+margin-bottom: 24px;
+margin-top: 128px;
+font-size: 48px;
+font-weight: 800;
+
+}
+.footer-para{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width:625px;
+margin-bottom: 32px;
+}
+.footer-span{
+color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
