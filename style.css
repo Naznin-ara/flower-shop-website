@@ -146,6 +146,40 @@ margin-top: 32px;
 margin-bottom: 128px;
 }
 /* feature section end */
+/* service section start */
+.service-container{
+    width:1922px;
+    height:500px;
+}
+.service-div{
+    width:1440px;
+    height:320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin:128px auto;
+    gap:100px;
+
+}
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    text-align: center;
+    gap:24px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.service img{
+    width:88px;
+    height: 88px;
+}
 /* hot deal section start */
 .hot-deal-container{
     width:1922px;
@@ -206,7 +240,7 @@ margin-bottom: 52px;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    margin-left: 70px;
+    margin-left: 118px;
     margin-bottom: 90px;
 }
 .right-div{
@@ -216,7 +250,7 @@ margin-bottom: 52px;
     align-items: center;
     flex-direction: row;
     gap:20px;
-    margin-right:70px;
+    margin-right:150px;
 }
 .card{
     background-color: white;
