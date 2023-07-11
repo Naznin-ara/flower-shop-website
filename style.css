@@ -55,6 +55,11 @@ margin-bottom: 32px;
     outline: none;
     font-size: 20px;
     font-weight: 700;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-color: rgb(61, 51, 51);
+    color: #cac6c6;
 }
 /* banner section end */
 .feature-container{
@@ -191,7 +196,7 @@ margin-bottom: 128px;
     align-items: center;
     flex-direction: row;
     margin-top:50px;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
     gap:186px;
 }
 .hot-deal-title{
@@ -232,7 +237,7 @@ margin-bottom: 52px;
     align-items: center;
     flex-direction: row;
     background-color: rgba(230, 38, 80, 0.4);
-    margin-bottom:127px;
+    margin-bottom:150px;
 }
 .left-div{
     display:flex;
@@ -263,8 +268,13 @@ margin-bottom: 52px;
     gap:15px;
     border-radius:10px;
     box-shadow:1px 1px 25px rgba(0,0,0,0.5);
-    
+    transition: all 0.4s;
 
+}
+.card:hover{
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.7);
+    background-color: rgba(230, 38, 80, 0.4);
+    color: white;
 }
 .p2{
     text-align: left !important;
@@ -275,7 +285,7 @@ margin-bottom: 52px;
     height:100px;
 }
 .gray{
-    color:gray;
+    color:rgb(82, 78, 78);
     text-decoration: line-through;
 }
 .btn2{
@@ -287,6 +297,11 @@ margin-bottom: 52px;
     font-weight:600;
     background-color: #3f3e3e;
     color:white;
+    transition: all 0.3s;
+}
+.btn2:hover{
+    background-color: #dbc6cb ;
+    color:rgb(27, 26, 26);
 }
 
 /* instragram section */
@@ -306,6 +321,8 @@ margin-bottom: 52px;
 .subscribe-container{
     width:1922px;
     height:600px;
+    margin-top:100px;
+    margin-bottom: 10px;
     
 }
 .subscribe-div{
